@@ -2,6 +2,10 @@ import { motion } from 'motion/react';
 import { useInView } from 'motion/react';
 import { useRef, useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import Project1 from '../assets/project1.jpg';
+import Project2 from '../assets/project2.jpg';
+import Project3 from '../assets/project3.jpg';
+import Project4 from '../assets/project4.jpg';
 
 export function ProjectsSection() {
   const ref = useRef(null);
@@ -13,25 +17,25 @@ export function ProjectsSection() {
       title: "エンタープライズクラウド移行",
       category: "クラウドインフラストラクチャ",
       description: "大手企業のクラウドファーストアーキテクチャへのシームレスな移行",
-      image: "https://images.unsplash.com/photo-1758369636875-60b3dcb76366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMHByb2Zlc3Npb25hbCUyMG9mZmljZXxlbnwxfHx8fDE3NjExMDA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Project1
     },
     {
       title: "AI駆動型分析プラットフォーム",
       category: "機械学習",
       description: "毎日数百万のデータポイントを処理するリアルタイムインサイトエンジン",
-      image: "https://images.unsplash.com/photo-1646215993316-c98f642303ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHRlY2hub2xvZ3klMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzYxMTAwNDgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Project2
     },
     {
       title: "グローバル決済ゲートウェイ",
       category: "フィンテック",
       description: "50カ国以上でセキュアで高スループットな決済処理",
-      image: "https://images.unsplash.com/photo-1722347315185-4f232000781b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMGJ1c2luZXNzJTIwdGVhbXxlbnwxfHx8fDE3NjExMDA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Project3
     },
     {
       title: "スマート製造IoT",
       category: "モノのインターネット",
       description: "ダウンタイムを45%削減するコネクテッドファクトリーソリューション",
-      image: "https://images.unsplash.com/photo-1676777502901-a32a66eb30cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMGJ1c2luZXNzd29tYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjExMDA0ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Project4
     }
   ];
 

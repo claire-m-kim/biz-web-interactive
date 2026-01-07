@@ -49,7 +49,7 @@ export function ContactFooter() {
               <div className="w-12 h-12 rounded-full bg-blue-800/50 flex items-center justify-center">
                 <Mail className="w-5 h-5" />
               </div>
-              <span>hello@bluewave.systems</span>
+              <span>hello@bluewavesystems.com</span>
             </motion.a>
 
             <motion.a

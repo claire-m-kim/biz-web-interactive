@@ -3,6 +3,10 @@ import { useInView } from 'motion/react';
 import { useRef } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Linkedin, Twitter } from 'lucide-react';
+import Profile1 from '../assets/profile1.jpg';
+import Profile2 from '../assets/profile2.jpg';
+import Profile3 from '../assets/profile3.jpg';
+import Profile4 from '../assets/profile4.jpg';
 
 export function TeamSection() {
   const ref = useRef(null);
@@ -12,22 +16,22 @@ export function TeamSection() {
     {
       name: "田中 美咲",
       role: "最高経営責任者",
-      image: "https://images.unsplash.com/photo-1676777502901-a32a66eb30cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMGJ1c2luZXNzd29tYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjExMDA0ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Profile1
     },
     {
       name: "佐藤 健太",
       role: "最高技術責任者",
-      image: "https://images.unsplash.com/photo-1722347315185-4f232000781b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMGJ1c2luZXNzJTIwdGVhbXxlbnwxfHx8fDE3NjExMDA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Profile2
     },
     {
       name: "山田 愛子",
       role: "デザイン責任者",
-      image: "https://images.unsplash.com/photo-1758369636875-60b3dcb76366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMHByb2Zlc3Npb25hbCUyMG9mZmljZXxlbnwxfHx8fDE3NjExMDA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Profile3
     },
     {
       name: "鈴木 大輔",
       role: "エンジニアリング担当副社長",
-      image: "https://images.unsplash.com/photo-1646215993316-c98f642303ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHRlY2hub2xvZ3klMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzYxMTAwNDgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      image: Profile4
     }
   ];
 
